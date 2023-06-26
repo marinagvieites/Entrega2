@@ -1,0 +1,54 @@
+/*HEADER**/
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* NAVBAR **/
+
+.navbar {
+
+    background-color: white;
+    display: flex;
+}
+
+/* FOOTER **/
+footer {
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+
+    a {
+        text-align: center;
+        color: white;
+        font-size: 24px;
+        width: 3rem;
+        height: 30px;
+        margin-top: 1%;
+        display: inline-block;
+        opacity: o, 75;
+
+        &:hover {
+            opacity: 3;
+            transform: translateY(-3%);
+
+        }
+
+    }
+
+    p {
+        text-align: right;
+        margin-top: 1%;
+
+        margin-right: 1%;
+        font-size: small;
+    }
+}

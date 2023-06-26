@@ -1,0 +1,39 @@
+
+/* INICIO**/
+.container {
+    max-width: 1150px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+
+}
+
+.card-img-top {
+    height: 350px
+}
+
+.card-body {
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    margin-left: 25%;
+    margin-right: 25%;
+    &:hover{  
+        background-color: white;
+        color: #000000;
+        border-color: black;
+
+    }
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}

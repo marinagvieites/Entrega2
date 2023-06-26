@@ -1,0 +1,82 @@
+
+/* Selector universal  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GENERALES */
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-size: 300%;
+    color: black;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+h2 {
+    font-size: 220%;
+    font-family: 'Hind', sans-serif;
+    color: black;
+}
+
+h3 {
+    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+hr {
+    background-color: #000000;
+    height: 1px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+
+/*ACERCA DE*/
+.acercade {
+    text-align: center;
+}
+
+/* AGENDA */
+.agenda {
+    font-size: 90%
+}
+
+/* Multimedia */
+
+#galería .col-lg-4 {
+    margin: 0 !important;
+    padding: 25%;
+} 
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+    padding: 1%;
+    &:hover {
+        border: 5px solid white;
+    }
+
+}
+
+@import "partials/variables";
+@import "partials/headerFooter";
+@import "partials/index";
+@import "partials/mediaQ";
