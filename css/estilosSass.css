@@ -5,9 +5,11 @@
   padding: 0;
 }
 
+/* MIXIN */
+/* VARIABLES */
 /* GENERALES */
 body {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -55,7 +57,13 @@ a {
 .agenda {
   font-size: 90%;
 }
+.agenda .row img {
+  box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
+  -webkit-box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
+  -moz-box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
+}
 
+/* PRENSA */
 /* Multimedia */
 #galería .col-lg-4 {
   margin: 0 !important;
@@ -66,39 +74,45 @@ a {
   width: 100%;
   height: 250px;
   padding: 1%;
+  box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
+  -webkit-box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
+  -moz-box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
 }
 #galeria img:hover {
-  border: 5px solid white;
+  border: 2px solid white;
 }
 
 /*HEADER**/
 header {
-  background-color: white;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
 }
 
 /* NAVBAR **/
+.nav-link {
+  font-weight: 300;
+  color: rgb(27, 11, 34);
+}
+
 .navbar {
-  background-color: white;
   display: flex;
 }
 
 /* FOOTER **/
 footer {
-  background-color: black;
+  background-image: url(../../Multimedia/layered-waves-haikei.png);
   width: 100%;
   height: 90px;
   font-family: "Hind", sans-serif;
   font-weight: 400;
   color: #ffffff;
   text-align: center;
-  font-family: "Hind", sans-serif;
 }
 footer a {
   text-align: center;
-  color: white;
-  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-size: 28px;
   width: 3rem;
   height: 30px;
   margin-top: 1%;
@@ -107,11 +121,12 @@ footer a {
 }
 footer a:hover {
   opacity: 3;
-  transform: translateY(-3%);
+  transform: translateY(-5%);
 }
 footer p {
   text-align: right;
   margin-top: 1%;
+  color: #a1a0a2;
   margin-right: 1%;
   font-size: small;
 }
@@ -128,11 +143,13 @@ footer p {
 
 .card-img-top {
   height: 350px;
+  box-shadow: 5px 5px 20px rgba(87, 60, 170, 0.62);
 }
 
 .card-body {
   text-align: center;
   font-family: "Hind", sans-serif;
+  box-shadow: 5px 5px 20px rgba(87, 60, 170, 0.62);
 }
 
 .btn-primary {
@@ -147,10 +164,15 @@ footer p {
   color: #000000;
   border-color: black;
 }
+.btn-primary:hover:active {
+  color: #000000;
+  background-color: white;
+  border-color: black;
+}
 
 .card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-  transform: translateY(-3%);
+  box-shadow: 5px 5px 20px rgba(87, 60, 170, 0.62);
+  transform: translateY(-1%);
 }
 
 /* RESPONSIVE **/
@@ -166,19 +188,19 @@ footer p {
   }
   .carousel-inner {
     width: 100%;
-    height: 300px;
+    height: 140px;
   }
   footer {
     width: 100%;
   }
   footer a {
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 3%;
-    height: 5%;
     width: 2rem;
+    height: 5%;
   }
   footer p {
-    color: white;
+    color: #a1a0a2;
     display: flex;
     justify-content: center;
     font-size: 80%;

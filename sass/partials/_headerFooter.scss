@@ -1,6 +1,6 @@
 /*HEADER**/
 header {
-    background-color: white;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
 
@@ -8,37 +8,40 @@ header {
 
 
 /* NAVBAR **/
+.nav-link {
+    font-weight: 300;
+    color: rgb(27, 11, 34);
+
+}
 
 .navbar {
 
-    background-color: white;
     display: flex;
 }
 
 /* FOOTER **/
 footer {
-    background-color: black;
-    width: 100%;
-    height: 90px;
-    font-family: 'Hind', sans-serif;
+    background-image: url(../../Multimedia/layered-waves-haikei.png);
+        @include medidas(100%, 90px);
+    font-family: $hind;
     font-weight: 400;
     color: #ffffff;
     text-align: center;
-    font-family: 'Hind', sans-serif;
+
 
     a {
         text-align: center;
-        color: white;
-        font-size: 24px;
-        width: 3rem;
-        height: 30px;
+        color: rgb(0, 0, 0);
+        font-size: 28px;
+        @include medidas(3rem, 30px);
         margin-top: 1%;
         display: inline-block;
         opacity: o, 75;
 
         &:hover {
             opacity: 3;
-            transform: translateY(-3%);
+            transform: translateY(-5%);
+
 
         }
 
@@ -47,7 +50,7 @@ footer {
     p {
         text-align: right;
         margin-top: 1%;
-
+        color: #a1a0a2;
         margin-right: 1%;
         font-size: small;
     }
