@@ -28,9 +28,9 @@ header {
 
 /* FOOTER **/
 footer {
-    background-image: url(../../Multimedia/layered-waves-haikei.png);
+    background-image: url(../Multimedia/layered-waves-haikei.png);
     @include medidas(100%, 180px);
-    font-family: $hind;
+       font-family: $hind;
     font-weight: 400;
     color: #ffffff;
     text-align: center;

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* Selector universal  */
 * {
   margin: 0;
@@ -86,7 +85,6 @@ a {
 .agenda {
   font-size: 90%;
 }
-
 .agenda .row img {
   box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
   -webkit-box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
@@ -98,7 +96,6 @@ a {
   margin-top: 0;
   padding-top: 0;
 }
-
 .text-center h1 {
   margin-top: 10;
   color: rgb(0, 0, 0);
@@ -118,7 +115,6 @@ a {
   -webkit-box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
   -moz-box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
 }
-
 #galeria img:hover {
   border: 2px solid white;
 }
@@ -136,7 +132,6 @@ header {
   margin: 15px;
   color: rgb(27, 11, 34);
 }
-
 .nav-link:hover {
   color: #2e104c;
   opacity: 70%;
@@ -148,7 +143,7 @@ header {
 
 /* FOOTER **/
 footer {
-  background-image: url(../Multimedia/gitlayered-waves-haikei.png);
+  background-image: url(../Multimedia/layered-waves-haikei.png);
   width: 100%;
   height: 180px;
   font-family: "Hind", sans-serif;
@@ -156,7 +151,6 @@ footer {
   color: #ffffff;
   text-align: center;
 }
-
 footer a {
   text-align: center;
   color: rgb(0, 0, 0);
@@ -167,12 +161,10 @@ footer a {
   display: inline-block;
   opacity: o, 75;
 }
-
 footer a:hover {
   opacity: 70%;
   transform: translateY(-5%);
 }
-
 footer p {
   text-align: right;
   margin-top: 6%;
@@ -209,13 +201,11 @@ footer p {
   margin-left: 25%;
   margin-right: 25%;
 }
-
 .btn-primary:hover {
   background-color: white;
   color: #000000;
   border-color: black;
 }
-
 .btn-primary:hover:active {
   color: #000000;
   background-color: white;
@@ -234,21 +224,17 @@ footer p {
     height: 550px;
   }
 }
-
 @media only screen and (min-width: 0px) and (max-width: 799px) {
   .carousel-item {
     height: 600x;
   }
-
   .carousel-inner {
     width: 100%;
     height: 140px;
   }
-
   h1 {
     padding-top: 10%;
   }
-
   .galeriafondo,
   .acercadefondo,
   .agendafondo,
@@ -257,18 +243,15 @@ footer p {
     height: 300px;
     background-size: cover;
   }
-
   footer {
     width: 100%;
   }
-
   footer a {
     color: rgb(0, 0, 0);
     padding-top: 6%;
     width: 2rem;
     height: 5%;
   }
-
   footer p {
     color: #a1a0a2;
     display: flex;
@@ -277,58 +260,46 @@ footer p {
     padding-top: 12%;
     width: 100%;
   }
-
   .container {
     padding: 15%;
     font-size: 90%;
     text-align: center;
   }
-
   .img-fluid {
     flex-direction: row;
   }
-
   .btn-primary {
     margin-top: 5%;
     margin-bottom: 5%;
   }
-
   .btn-primary:hover {
     background-color: white !important;
     color: #000000 !important;
     border-color: black !important;
   }
-
   .acercade {
     text-align: center;
   }
-
   .prensa {
     font-size: 60%;
   }
-
   .agenda p {
     font-size: 150%;
     padding-top: 3%;
   }
-
   .agenda h3 {
     padding-top: 15%;
   }
-
   .prensa h2 {
     font-size: 350%;
   }
-
   .prensa h3 {
     font-size: 250%;
   }
-
   .prensa p {
     font-size: 200%;
     text-align: justify;
   }
-
   .prensa a {
     font-size: 150%;
   }
