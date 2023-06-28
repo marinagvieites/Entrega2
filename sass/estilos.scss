@@ -27,10 +27,10 @@ body {
 h1 {
     font-size: 300%;
     color: black;
-    font-family: $hind;
+    font-family: $rob;
     text-align: center;
     justify-content: center;
-    margin-top: 2%;
+    padding-top: 4%;
     margin-bottom: 1%;
 }
 
@@ -61,10 +61,41 @@ a {
 }
 
 
+/* BANNERS */
+.prensafondo,
+.galeriafondo,
+.acercadefondo,
+.agendafondo {
+    @include medidas(100%, 600px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.acercadefondo {
+    background-image: url(../Multimedia/coral1.JPG)
+}
+
+.prensafondo {
+    background-image: url(https://www.el1digital.com.ar/wp-content/uploads/2021/09/Coro-1.jpg)
+}
+
+.agendafondo {
+    background-image: url(../Multimedia/usina2018.jpg)
+}
+
+.galeriafondo {
+    background-image: url(../Multimedia/usina2.jpg);
+
+}
+
 /*ACERCA DE*/
 .acercade {
-    text-align: center;
+    text-align: justify;
+    
 }
+
 
 /* AGENDA */
 .agenda {
@@ -80,9 +111,19 @@ a {
 }
 
 /* PRENSA */
+.text-center {
+
+    margin-top: 0;
+    padding-top: 0;
+
+    h1 {
+        margin-top: 10;
+        color: rgb(0, 0, 0);
+    }
+}
+
 
 /* Multimedia */
-
 #galería .col-lg-4 {
     margin: 0 !important;
     padding: 25%;
