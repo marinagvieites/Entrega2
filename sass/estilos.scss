@@ -30,8 +30,7 @@ h1 {
     font-family: $rob;
     text-align: center;
     justify-content: center;
-    padding-top: 4%;
-    margin-bottom: 1%;
+       margin-bottom: 1%;
 }
 
 h2 {
@@ -66,15 +65,19 @@ a {
 .galeriafondo,
 .acercadefondo,
 .agendafondo {
-    @include medidas(100%, 600px);
+    @include medidas(100%, 900px);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+   
+    
+   
 
 }
 
 .acercadefondo {
-    background-image: url(../Multimedia/coral1.JPG)
+    background-image: url(../Multimedia/coral1.JPG);
+    
 }
 
 .prensafondo {
@@ -86,7 +89,7 @@ a {
 }
 
 .galeriafondo {
-    background-image: url(../Multimedia/usina2.jpg);
+    background-image: url(../Multimedia/1.jpg);
 
 }
 
@@ -108,6 +111,20 @@ a {
             -moz-box-shadow: 10px 10px 19px -5px rgba(87, 60, 170, 0.62);
         }
     }
+    
+}
+.accordion-button:focus {
+    color: #ffffff;
+    background-color: #000000;
+   
+    }
+.errorfondo{
+    background-image:url(../Multimedia/error.png);
+    @include medidas(100%, 712px);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    
 }
 
 /* PRENSA */
@@ -121,7 +138,6 @@ a {
         color: rgb(0, 0, 0);
     }
 }
-
 
 /* Multimedia */
 #galería .col-lg-4 {
