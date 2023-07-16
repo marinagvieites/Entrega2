@@ -1,5 +1,5 @@
 /* RESPONSIVE **/
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1200px) {
 
     .carousel-inner {
         @include medidas(100%, 750px);
@@ -9,20 +9,27 @@
 
 }
 
-@media only screen and (min-width: 0px) and (max-width: 799px) {
+@media only screen and (min-width: 0px) and (max-width: 599px) {
 
-    header{ height: 22%;
-        position:fixed;
-        margin-bottom:300px;
-        img{     margin-left: -17px;
+    header {
+        height: 22%;
+        position: fixed;
+        margin-bottom: 300px;
+
+        img {
+            margin-left: -17px;
             margin-right: 12px;
             margin-top: -10px;
-               
+
         }
-    .container-fluid { background-color: rgb(255, 255, 255) ;} 
-   
-}
-    .carousel-item{
+
+        .container-fluid {
+            background-color: rgb(255, 255, 255);
+        }
+
+    }
+
+    .carousel-item {
         height: 140px;
         padding-top: 0px;
         padding-bottom: 0px;
@@ -36,14 +43,15 @@
     .carousel-inner {
         @include medidas(100%, 294px);
         padding-top: 81px;
-      
+
 
     }
-    .h1index{
-       margin-top: 30px;
+
+    .h1index {
+        margin-top: 30px;
     }
 
-  
+
     .prensafondo,
     .galeriafondo,
     .acercadefondo,
@@ -55,14 +63,16 @@
 
         padding-top: 60px;
         margin-top: 20;
-       
-           
+
+
     }
-    h1 {margin-top: -100px;
+
+    h1 {
+        margin-top: -100px;
     }
 
 
-  
+
     footer {
         width: 100%;
 
@@ -118,7 +128,7 @@
 
     }
 
-       .agenda {
+    .agenda {
         p {
             font-size: 150%;
             padding-top: 3%;
@@ -132,7 +142,9 @@
 
     }
 
-    .prensa { font-size: 60%;
+    .prensa {
+        font-size: 60%;
+
         h2 {
             font-size: 350%;
         }
@@ -149,6 +161,180 @@
 
         a {
             font-size: 150%;
+        }
+
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+    a{
+        font-size: 150%;
+    }
+    p, h2 {
+        font-size: 180%;
+        padding-top: 3%;
+    }
+    header {
+        height: 15%;
+        position: fixed;
+        margin-bottom: 300px;
+        font-size: 170%;
+
+        img {
+            margin-left: 45px;
+            margin-right: 8px;
+            margin-top: 16px;
+
+
+        }
+
+        .container-fluid {
+            background-color: rgb(255, 255, 255);
+        }
+        .container {
+
+            padding-left: 15%;
+            font-size: 90%;
+            text-align: center;
+        }
+
+    }
+
+    .carousel-item {
+        height: 200px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .w-100 {
+        padding-top: 50px;
+        height: 500px;
+    }
+
+    .carousel-inner {
+        @include medidas(100%, 620px);
+        padding-top: 120px;
+
+
+    }
+
+    .h1index {
+        margin-top: 30px;
+    }
+   
+
+
+    .prensafondo,
+    .galeriafondo,
+    .acercadefondo,
+    .agendafondo {
+        @include medidas(100%, 1000px);
+        background-size: contain;
+        background-position: top 20%;
+        background-repeat: no-repeat;
+
+        padding-top: 60px;
+        margin-top: 20;
+
+
+    }
+
+    h1 {
+        margin-top: -170px;
+    }
+
+    .container {
+
+        padding: 15%;
+        font-size: 90%;
+        text-align: center;
+    }
+
+
+    footer {
+        width: 100%;
+
+        a {
+            size: 200px;
+            color: rgb(232, 219, 219);
+            padding-top: 5%;
+            margin-top: 0%;
+            @include medidas(2rem, 5%);
+
+        }
+
+        p {
+            color: #a1a0a2;
+            display: flex;
+            justify-content: center;
+            font-size: 130%;
+            padding-top: 3%;
+            width: 100%;
+
+        }
+    }
+
+   
+.accordion-button{
+    font-size: 100%;
+   
+}
+   
+
+
+    .btn-primary {
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+        &:hover {
+            background-color: white !important;
+
+            color: #000000 !important;
+            border-color: black !important;
+
+        }
+
+    }
+
+    .acercade {
+        text-align: center;
+
+   }
+
+    .agenda {
+        
+
+        h3 {
+            padding-top: 15%;
+
+        }
+
+
+    }
+
+    .prensa {
+        h2 {
+            font-size: 200%;
+        }
+
+        h3 {
+            font-size: 250%;
+
+        }
+
+        p {
+            font-size: 200%;
+            text-align: justify;
+        }
+
+        a {
+            font-size: 300%;
         }
 
     }

@@ -1,6 +1,6 @@
 /* INICIO**/
 .carousel-item,
-.caruosel slide { padding-top: 120px; }
+.caruosel  { padding-top: 120px; }
 .container {
     max-width: 1150px;
     display: flex;
@@ -12,6 +12,9 @@
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     margin-top: 135px
+}
+.cartas{
+    margin: 30%;
 }
 
 .card-img-top {
