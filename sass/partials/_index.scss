@@ -2,14 +2,16 @@
 .carousel-item,
 .caruosel slide { padding-top: 120px; }
 .container {
-
-        max-width: 1150px;
+    max-width: 1150px;
     display: flex;
     text-align: justify;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 2%;
 
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    margin-top: 135px
 }
 
 .card-img-top {
